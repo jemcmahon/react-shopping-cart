@@ -22,6 +22,8 @@ export const fetchProducts = (filters, sortBy, callback) => dispatch => {
     .then(res => {
       let { products } = res.data;
 
+      products = products.filter(f => f.isInStock !== false);
+
       if (!!filters && filters.length > 0) {
         products = products.filter(p =>
           filters.find(f => p.availableSizes.find(size => size === f))
