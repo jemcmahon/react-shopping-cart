@@ -13,7 +13,7 @@ export default () => (
       height="80"
       viewBox="0 0 250 250"
       style={{
-        fill: '#151513',
+        fill: '#151513', // 10a798
         color: '#fff',
         position: 'absolute',
         top: '0',

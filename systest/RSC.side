@@ -1,0 +1,220 @@
+{
+  "id": "af2b23ff-62ac-4207-927b-636564b58829",
+  "version": "2.0",
+  "name": "RSC",
+  "url": "http://localhost:3000",
+  "tests": [{
+    "id": "1a16e3c2-660d-46c7-860a-a26cbe097975",
+    "name": "RSC SIDE Flow 1",
+    "commands": [{
+      "id": "7c9998ef-f8dc-45c8-a611-c13830b78d96",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "12bb987c-8d18-4b59-b9e3-014108f1a692",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "500x600",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b161254-a0db-4896-8193-630a03106f20",
+      "comment": "",
+      "command": "eyesCheckWindow",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f439d693-e971-49cf-be0a-f774eee55456",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filters-available-size:nth-child(3) .checkmark",
+      "targets": [
+        ["css=.filters-available-size:nth-child(3) .checkmark", "css:finder"],
+        ["xpath=//div[@id='root']/main/div/div[2]/label/span", "xpath:idRelative"],
+        ["xpath=//div[2]/label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a9cfc85-4d24-4a56-96a1-39459718f3b1",
+      "comment": "",
+      "command": "eyesCheckWindow",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ffab6514-d72b-4de6-bd40-9965bdcc646f",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.shelf-item:nth-child(3) > .shelf-item__buy-btn",
+      "targets": [
+        ["css=.shelf-item:nth-child(3) > .shelf-item__buy-btn", "css:finder"],
+        ["xpath=//div[@id='root']/main/div[2]/div[3]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3aaead36-4a99-4902-af17-26642dc8774b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shelf-item__buy-btn",
+      "targets": [
+        ["css=.shelf-item__buy-btn", "css:finder"],
+        ["xpath=//div[@id='root']/main/div[2]/div[2]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10eec94f-5584-439e-a5ed-0b1becc5fbf9",
+      "comment": "",
+      "command": "eyesCheckWindow",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "87c1ce7f-b02d-4cd3-9c52-f390972d2141",
+      "comment": "",
+      "command": "click",
+      "target": "css=.float-cart__close-btn",
+      "targets": [
+        ["css=.float-cart__close-btn", "css:finder"],
+        ["xpath=//div[@id='root']/div/div", "xpath:idRelative"],
+        ["xpath=//body/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2882b5d-f035-4fd5-92de-2465c9afbc91",
+      "comment": "",
+      "command": "eyesCheckWindow",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3ff8dfa-3b51-419f-92cb-792a7c0639bf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filters-available-size:nth-child(4) .checkmark",
+      "targets": [
+        ["css=.filters-available-size:nth-child(4) .checkmark", "css:finder"],
+        ["xpath=//div[@id='root']/main/div/div[3]/label/span", "xpath:idRelative"],
+        ["xpath=//div[3]/label/span", "xpath:position"],
+        ["xpath=//span[contains(.,'M')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6cfc9b41-2122-4e37-99ac-2700365f908e",
+      "comment": "",
+      "command": "eyesCheckWindow",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82528c91-9b7f-46d9-bddb-b1992a0ec0da",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shelf-item:nth-child(2) > .shelf-item__buy-btn",
+      "targets": [
+        ["css=.shelf-item:nth-child(2) > .shelf-item__buy-btn", "css:finder"],
+        ["xpath=//div[@id='root']/main/div[2]/div[2]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2159790a-ae64-447d-b31f-4b2ceecf52c3",
+      "comment": "",
+      "command": "eyesCheckWindow",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "acfb8c57-a7db-4614-963b-f870935b6b0b",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='root']/div/div[2]/div[2]/div/div",
+      "targets": [
+        ["css=.shelf-item--mouseover > .shelf-item__del", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fff6cad-709c-4aef-9788-f7c8dea87530",
+      "comment": "",
+      "command": "eyesCheckWindow",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a8b52c6b-1ccf-48cf-9974-1cd42ccb867e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shelf-item__del",
+      "targets": [
+        ["css=.shelf-item__del", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50602de7-a35c-4484-843e-46e45a0c7d83",
+      "comment": "",
+      "command": "eyesCheckWindow",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1191aacc-986f-4999-bf64-65163c42df38",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d1614969-2428-4460-9d2f-ac8b87371cd6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost:3000/"],
+  "plugins": [{
+    "id": "fbnkflkahhlmhdgkddaafgnnokifobik",
+    "name": "Applitools",
+    "version": "1.0.0"
+  }],
+  "snapshot": {
+    "globalConfig": {
+      "snapshot": "const { Eyes, Target } = configuration.params.eyesRendering ? require('@applitools/eyes-rendering') : require('@applitools/eyes-selenium');global.Target = Target;const { ConsoleLogHandler, BatchInfo } = require('@applitools/eyes-sdk-core');let apiKey = process.env.APPLITOOLS_API_KEY, serverUrl = process.env.APPLITOOLS_SERVER_URL, appName = \"RSC\", batchId = configuration.runId, batchName;"
+    },
+    "tests": [{
+      "id": "1a16e3c2-660d-46c7-860a-a26cbe097975",
+      "snapshot": {
+        "commands": {
+          "0b161254-a0db-4896-8193-630a03106f20": "if (!opts.isNested) {await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.window().fully(true));}",
+          "3a9cfc85-4d24-4a56-96a1-39459718f3b1": "if (!opts.isNested) {await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.window().fully(true));}",
+          "10eec94f-5584-439e-a5ed-0b1becc5fbf9": "if (!opts.isNested) {await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.window().fully(true));}",
+          "a2882b5d-f035-4fd5-92de-2465c9afbc91": "if (!opts.isNested) {await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.window().fully(true));}",
+          "6cfc9b41-2122-4e37-99ac-2700365f908e": "if (!opts.isNested) {await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.window().fully(true));}",
+          "2159790a-ae64-447d-b31f-4b2ceecf52c3": "if (!opts.isNested) {await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.window().fully(true));}",
+          "3fff6cad-709c-4aef-9788-f7c8dea87530": "if (!opts.isNested) {await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.window().fully(true));}",
+          "50602de7-a35c-4484-843e-46e45a0c7d83": "if (!opts.isNested) {await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.window().fully(true));}"
+        },
+        "setupHooks": ["const _driver = driver;driver = await eyes.open(driver, appName, \"RSC SIDE Flow 1\", null, configuration.params.eyesRendering ? { browser: configuration.params.eyesRendering } : null);"],
+        "teardownHooks": ["driver = _driver;"]
+      }
+    }]
+  },
+  "dependencies": {
+    "@applitools/eyes-selenium": "4.3.2",
+    "@applitools/eyes-rendering": "2.2.1"
+  },
+  "jest": {
+    "extraGlobals": ["Math"]
+  }
+}
