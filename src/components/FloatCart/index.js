@@ -93,8 +93,8 @@ class FloatCart extends Component {
   render() {
     const { cartTotal, cartProducts, removeProduct, cartOpen } = this.props;
 
-    if (cartOpen != undefined)
-        this.state.isOpen = cartOpen
+    if (cartOpen === true && this.state.isOpen === false)
+        this.setState({ isOpen: true });
 
     const products = cartProducts.map(p => {
       return (
