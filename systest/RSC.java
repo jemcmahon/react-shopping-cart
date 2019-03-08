@@ -9,12 +9,10 @@ public class RSC {
 
     public static void main(String[] args) {
 
-        WebDriver driver = new FirefoxDriver();
-        //WebDriver driver = new ChromeDriver();
+        WebDriver driver = new FirefoxDriver(); // ChromeDriver
 
         Eyes eyes = new Eyes();
         eyes.setApiKey(System.getenv("APPLITOOLS_API_KEY"));
-        eyes.setSendDom(true);
 
         try {
             eyes.open(driver, "RSC Java", "RSC Selenium Flow 1", new RectangleSize(500, 700));
@@ -41,7 +39,7 @@ public class RSC {
             driver.findElement(By.cssSelector(".shelf-item__del")).click();
             eyes.checkWindow("Cart Delete 2");
 
-            Thread.sleep(100); // not needed
+            Thread.sleep(1); // placeholder
             eyes.close();
         } catch(InterruptedException e){
             System.out.println("Main thread interrupted");
