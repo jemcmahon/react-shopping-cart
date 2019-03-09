@@ -2,7 +2,7 @@ const expect = require('chai').expect;
 
 describe('Shopping cart', () => {
   it('should add a product to cart and remove it', () => {
-    browser.url('https://react-shopping-cart-67954.firebaseapp.com/');
+    browser.url('process.env.REACT_APP_APP_URL');
     browser.waitForText('.shelf-item');
 
     /* Open float cart */
